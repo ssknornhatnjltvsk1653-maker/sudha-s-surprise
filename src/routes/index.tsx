@@ -271,11 +271,12 @@ function TheDayItStarted() {
                     ? "text-3xl text-blush/70 sm:text-4xl"
                     : "font-display text-6xl leading-none text-blush sm:text-7xl"
                 }
-                style={
-                  part === "•"
-                    ? undefined
-                    : { textShadow: "0 0 40px color-mix(in oklab, var(--rose) 45%, transparent)" }
-                }
+                style={{
+                  textShadow:
+                    part === "•"
+                      ? "none"
+                      : "0 0 40px color-mix(in oklab, var(--rose) 45%, transparent)",
+                }}
               >
                 {part}
               </motion.span>
