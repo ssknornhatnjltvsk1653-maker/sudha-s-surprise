@@ -3,7 +3,7 @@ import { Delete, Check, Heart, Lock } from "lucide-react";
 import { useCallback, useState } from "react";
 import { FloatingHearts, burstHearts } from "./Hearts";
 
-const CODE = "0706";
+const CODE = "0712";
 const KEYS = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
 function tap(ms = 12) {
@@ -123,7 +123,7 @@ export function PasswordGate({ onUnlock }: { onUnlock: () => void }) {
         >
           A little surprise
           <br />
-          <span className="text-blush italic">for Doroty ❤️</span>
+          <span className="text-blush italic">for you, Sudha ❤️</span>
         </motion.h1>
 
         <motion.p
@@ -132,7 +132,7 @@ export function PasswordGate({ onUnlock }: { onUnlock: () => void }) {
           transition={{ duration: 1.4, delay: 1 }}
           className="mt-4 text-xs tracking-[0.28em] text-muted-foreground uppercase"
         >
-          only someone special can unlock this
+          some things are meant only for two people…
         </motion.p>
 
         {/* dots */}
@@ -176,7 +176,7 @@ export function PasswordGate({ onUnlock }: { onUnlock: () => void }) {
               animate={{ opacity: 1, y: 0 }}
               className="text-xs tracking-wide text-blush"
             >
-              hmm, that's not it — try again, my love ❤️
+              arre, that's not it — try once more ❤️
             </motion.p>
           )}
         </div>
