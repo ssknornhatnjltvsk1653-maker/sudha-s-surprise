@@ -9,7 +9,7 @@ import { PasswordGate } from "@/components/experience/PasswordGate";
 
 const TITLE = "Happy National Couple Day, Sudha ❤️";
 const DESC =
-  "A little interactive surprise Shourya made for Sudha — for National Couple Day, and for every ordinary day in between.";
+  "Shourya ne Sudha ke liye banaya hai ye happy national couple day meri jaan";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -228,7 +228,7 @@ function OpeningMessage() {
       <Reveal>
         <p className={eyebrow}>something i wanted to say</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          Sudha, <span className="text-blush italic">read this slowly</span>
+          sudha <span className="text-blush italic">ye dhyan se padhna</span>
         </h2>
       </Reveal>
 
@@ -251,7 +251,7 @@ function TheDayItStarted() {
       <Reveal>
         <p className={eyebrow}>the day it started</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          A date that quietly became <span className="text-blush italic">ours</span>
+          wo date jo chupke se <span className="text-blush italic">humari ban gayi</span>
         </h2>
       </Reveal>
 
@@ -318,7 +318,7 @@ function ThankYou() {
       <Reveal>
         <p className={eyebrow}>thank you</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          Thank you for being <span className="text-blush italic">my girlfriend</span>
+          thanks meri <span className="text-blush italic">gf banne ke liye</span>
         </h2>
       </Reveal>
 
@@ -362,7 +362,7 @@ function NotAlwaysPerfect() {
       <Reveal>
         <p className={eyebrow}>being honest</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          I know things aren't <span className="text-blush italic">always perfect</span>
+          pata hai sab kuch <span className="text-blush italic">perfect nahi hota</span>
         </h2>
       </Reveal>
 
@@ -420,7 +420,7 @@ function ThingsILove() {
       <Reveal>
         <p className={eyebrow}>things i love about you</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          Tap each one — <span className="text-blush italic">there's a reason for all of them</span>
+          sab tap kar <span className="text-blush italic">har ek ka reason hai</span>
         </h2>
       </Reveal>
 
@@ -511,8 +511,8 @@ function Letter() {
       <Reveal>
         <p className={eyebrow}>a letter for you</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          Sudha, this is something{" "}
-          <span className="text-blush italic">I wanted you to know…</span>
+          sudha ye sab{" "}
+          <span className="text-blush italic">tujhe pata hona chahiye</span>
         </h2>
       </Reveal>
 
@@ -562,7 +562,7 @@ function HiddenMessage() {
       <Reveal>
         <p className={eyebrow}>one more thing</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          There's something else <span className="text-blush italic">I want to tell you…</span>
+          ek aur cheez <span className="text-blush italic">bolni thi tujhe</span>
         </h2>
       </Reveal>
 
@@ -659,7 +659,7 @@ function Finale() {
       <div className={`${section} relative z-[2] text-center`}>
         <Reveal>
           <h2 className="text-3xl leading-[1.2] sm:text-5xl">
-            Wait… <span className="text-blush italic">there's one last thing.</span>
+            ruk ja <span className="text-blush italic">ek last cheez baaki hai</span>
           </h2>
         </Reveal>
 
@@ -724,7 +724,7 @@ function Finale() {
                 >
                   <Play className="h-4 w-4 text-blush" fill="currentColor" />
                   <span className="text-sm tracking-[0.28em] uppercase">
-                    play our surprise ❤️
+                    play kar ❤️
                   </span>
                 </motion.button>
               ) : (
@@ -773,7 +773,7 @@ function Finale() {
 
         <Reveal delay={0.4}>
           <p className="mt-24 text-[0.65rem] tracking-[0.35em] text-muted-foreground/80 uppercase">
-            made with love by shourya, just for you ❤️
+            made by shourya sirf tere liye ❤️
           </p>
         </Reveal>
       </div>
