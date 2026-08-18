@@ -9,7 +9,7 @@ import { PasswordGate } from "@/components/experience/PasswordGate";
 
 const TITLE = "Happy National Couple Day, Sudha ❤️";
 const DESC =
-  "A little interactive surprise Shourya made for Sudha — for National Couple Day, and for every ordinary day in between.";
+  "Shourya ne Sudha ke liye banaya hai ye happy national couple day meri jaan";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -191,7 +191,7 @@ function Hero() {
           transition={{ duration: 1.8, delay: 2.9, ease: [0.22, 0.61, 0.36, 1] }}
           className="mt-9 max-w-xl text-lg leading-relaxed text-muted-foreground sm:text-xl"
         >
-          One little website for one very special person.
+          bas tere liye banaya hai ye
         </motion.p>
 
         <motion.div
@@ -215,11 +215,11 @@ function Hero() {
 
 /* ── The first, most personal message ───────────────────────── */
 const opening = [
-  "Sach bolun toh, mujhe kabhi kabhi samajh hi nahi aata ki tumhe exactly kaise explain karun ki tum mere liye kya ho. I start typing something, delete it, and start again — kyunki har baar lagta hai kuch reh gaya.",
-  "So instead of trying to say it in one message, I made this. Ek chhoti si cheez, but I sat and thought about you the whole time I was making it.",
-  "Bas itna pata hai ki tum mere liye bohot special ho. 7 December is the day you became my girlfriend, and that date stayed with me in a way I can't really put into normal words.",
-  "I know sab din same nahi hote. Kabhi baat zyada hoti hai, kabhi kam. But my feelings didn't just disappear somewhere in between. I still care, a lot, and I still value what we have.",
-  "This isn't me asking you for anything. No pressure, no expectations. I just wanted you to feel loved today — that's genuinely the only reason this exists.",
+  "ok so idk how to say this properly tbh main type karta hoon phir delete kar deta hoon phir se likhta hoon kuch na kuch reh hi jata hai har baar",
+  "so ek msg mein bolne se acha maine ye bana diya poori raat bas tera hi khayal tha while making this",
+  "7 dec wo din hai jab tu meri hui aur wo date mere dimag mein aise chipki hai ki kya hi bolun",
+  "har din same nahi hota kabhi baat zyada kabhi kam par feelings kahin gayi nahi hai wo waise ki waise hi hai",
+  "ye koi demand nahi hai bas chahta tha aaj tu smile kare aur feel kare ki tu kitni important hai mere liye",
 ];
 
 function OpeningMessage() {
@@ -228,7 +228,7 @@ function OpeningMessage() {
       <Reveal>
         <p className={eyebrow}>something i wanted to say</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          Sudha, <span className="text-blush italic">read this slowly</span>
+          sudha <span className="text-blush italic">ye dhyan se padhna</span>
         </h2>
       </Reveal>
 
@@ -251,7 +251,7 @@ function TheDayItStarted() {
       <Reveal>
         <p className={eyebrow}>the day it started</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          A date that quietly became <span className="text-blush italic">ours</span>
+          wo date jo chupke se <span className="text-blush italic">humari ban gayi</span>
         </h2>
       </Reveal>
 
@@ -290,8 +290,8 @@ function TheDayItStarted() {
 
       <Reveal delay={0.25}>
         <p className="mx-auto mt-10 max-w-xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
-          Uss din se pehle it was just another date on the calendar. Now it's the day we became a
-          couple — the beginning of everything that came after.
+          pehle ye bas ek normal date thi calendar pe ab ye wo din hai jab hum hue aur sab kuch
+          yahin se shuru hua
         </p>
       </Reveal>
     </section>
@@ -318,7 +318,7 @@ function ThankYou() {
       <Reveal>
         <p className={eyebrow}>thank you</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          Thank you for being <span className="text-blush italic">my girlfriend</span>
+          thanks meri <span className="text-blush italic">gf banne ke liye</span>
         </h2>
       </Reveal>
 
@@ -338,15 +338,15 @@ function ThankYou() {
           >
             <Particles count={12} />
             <p className="relative text-lg leading-relaxed text-foreground/90 sm:text-xl">
-              Thank you for saying haan that day. I don't think you know how big that was for me. I
-              wasn't sure of a lot of things back then, but I was sure about you.
+              us din haan bolne ke liye thanks tujhe andaza bhi nahi hai wo kitna bada tha mere
+               liye tab bohot kuch clear nahi tha par tere baare mein main sure tha
             </p>
             <p className="relative mt-6 text-lg leading-relaxed text-foreground/90 sm:text-xl">
-              Thank you for the time you gave me, for the conversations, for being someone I could
-              be completely normal around. I never had to act cooler or smarter than I actually am.
+              time dene ke liye baaton ke liye aur mujhe normal rehne dene ke liye thanks kabhi
+               cool ya smart banne ka drama nahi karna pada tere saamne
             </p>
             <p className="relative mt-6 text-lg leading-relaxed text-muted-foreground italic sm:text-xl">
-              Being your boyfriend is honestly one of the things I'm most glad about.
+              tera bf hona meri life ki sabse acchi cheez hai fr
             </p>
           </motion.div>
         </div>
@@ -362,7 +362,7 @@ function NotAlwaysPerfect() {
       <Reveal>
         <p className={eyebrow}>being honest</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          I know things aren't <span className="text-blush italic">always perfect</span>
+          pata hai sab kuch <span className="text-blush italic">perfect nahi hota</span>
         </h2>
       </Reveal>
 
@@ -370,16 +370,15 @@ function NotAlwaysPerfect() {
         <div className="card-premium relative mt-12 overflow-hidden p-7 sm:p-11">
           <Particles count={10} />
           <p className="relative text-lg leading-relaxed text-foreground/90 sm:text-xl">
-            I know har din same nahi hota. Sometimes life gets busy, sometimes we don't talk the way
-            we used to, and things don't always feel exactly like the beginning.
+            pata hai har din same nahi hota kabhi life busy ho jati hai kabhi baat pehle jaisi
+            nahi hoti
           </p>
           <p className="relative mt-6 text-lg leading-relaxed text-muted-foreground sm:text-xl">
-            But that doesn't make any of the good things less important to me. Phases change; what I
-            feel for you didn't quietly vanish somewhere in between.
+            par isse kuch kam nahi ho jata phases badalte hai feelings nahi
           </p>
           <p className="relative mt-6 text-lg leading-relaxed text-foreground/90 sm:text-xl">
-            Main tumse kuch demand nahi kar raha. I'm just telling you, honestly, that you still
-            matter to me — on the easy days and the awkward ones both.
+            main kuch maang nahi raha bas bata raha hoon ki tu abhi bhi utni hi matter karti hai
+            acche din ho ya weird wale
           </p>
         </div>
       </Reveal>
@@ -391,27 +390,27 @@ function NotAlwaysPerfect() {
 const loveCards = [
   {
     title: "Your presence",
-    body: "Even when nothing special is happening, tum ho — and that alone makes the day feel lighter.",
+    body: "kuch special na bhi ho tab bhi tu hoti hai aur bas itne se hi din halka lagta hai",
   },
   {
     title: "The little things you do",
-    body: "The small check-ins, the tiny replies, the way you notice things I never even said out loud.",
+    body: "chhote chhote check ins tiny replies aur wo cheezein notice karna jo maine kabhi bola bhi nahi",
   },
   {
     title: "The way you make me smile",
-    body: "I can be in the worst mood and one message from you ruins my whole plan of staying upset.",
+    body: "mood worst ho aur tera ek msg aa jaye toh mera upset rehne ka plan hi fail ho jata hai",
   },
   {
     title: "The memories we've made",
-    body: "Not big events — just our normal conversations that I still replay in my head randomly.",
+    body: "koi bade events nahi bas normal baatein jo abhi bhi randomly dimag mein chalti rehti hai",
   },
   {
     title: "How easy you are to talk to",
-    body: "Tumse baat karte waqt I never feel like I'm being judged. That's genuinely rare for me.",
+    body: "tujhse baat karte time kabhi judge feel nahi hota aur ye mere liye rare hai fr",
   },
   {
     title: "Just you being you",
-    body: "You've never tried to be someone else with me, and that's my favourite thing about you.",
+    body: "tune kabhi kisi aur jaisa banne ki koshish nahi ki aur yahi meri fav cheez hai",
   },
 ];
 
@@ -421,7 +420,7 @@ function ThingsILove() {
       <Reveal>
         <p className={eyebrow}>things i love about you</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          Tap each one — <span className="text-blush italic">there's a reason for all of them</span>
+          sab tap kar <span className="text-blush italic">har ek ka reason hai</span>
         </h2>
       </Reveal>
 
@@ -498,12 +497,12 @@ function LoveCard({ title, body, index }: { title: string; body: string; index: 
 
 /* ── The letter ─────────────────────────────────────────────── */
 const letter = [
-  "I'm not great at saying things like this out loud, so I'm writing it instead.",
-  "Thank you for becoming my girlfriend on 7 December, and for everything that came after it — the normal conversations, the random laughs, the days that felt better only because you were part of them.",
-  "I know I'm not perfect at this. Kabhi kabhi I go quiet, kabhi main galat cheez keh deta hoon. But even in those phases, you were never someone I stopped caring about.",
-  "Tum jaisi ho, waisi hi acchi ho. I don't want you to change anything about yourself for me. I like the real version, the tired version, the annoyed version — all of it.",
-  "I hope we get to make more memories together. Not big cinematic ones, just more ordinary days that quietly become the ones I remember.",
-  "And if you ever feel like too much or not enough, please read this again. Mere liye tum bilkul theek ho.",
+  "bolne mein mujhse hota nahi isliye likh raha hoon",
+  "7 dec ko meri hone ke liye thanks aur uske baad ki har cheez ke liye bhi normal baatein random hasi aur wo din jo sirf tere hone se better lage",
+  "main perfect nahi hoon kabhi quiet ho jata hoon kabhi galat bol deta hoon par care karna kabhi band nahi hua",
+  "tu jaisi hai waise hi best hai mujhe kuch change nahi karwana real wali tired wali gussa wali sab chalti hai",
+  "bohot saari aur memories banani hai koi filmy wali nahi bas normal din jo baad mein yaad aate hai",
+  "aur kabhi lage ki tu too much hai ya kam pad rahi hai toh ye dobara padh lena mere liye tu bilkul perfect hai",
 ];
 
 function Letter() {
@@ -512,8 +511,8 @@ function Letter() {
       <Reveal>
         <p className={eyebrow}>a letter for you</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          Sudha, this is something{" "}
-          <span className="text-blush italic">I wanted you to know…</span>
+          sudha ye sab{" "}
+          <span className="text-blush italic">tujhe pata hona chahiye</span>
         </h2>
       </Reveal>
 
@@ -563,7 +562,7 @@ function HiddenMessage() {
       <Reveal>
         <p className={eyebrow}>one more thing</p>
         <h2 className="mt-5 text-3xl leading-tight sm:text-5xl">
-          There's something else <span className="text-blush italic">I want to tell you…</span>
+          ek aur cheez <span className="text-blush italic">bolni thi tujhe</span>
         </h2>
       </Reveal>
 
@@ -587,7 +586,7 @@ function HiddenMessage() {
               >
                 <Gift className="mx-auto h-7 w-7 text-blush" />
                 <p className="mt-6 text-sm tracking-[0.3em] uppercase">press to reveal</p>
-                <p className="mt-3 text-sm text-muted-foreground">it's short, but I mean it</p>
+                <p className="mt-3 text-sm text-muted-foreground">chhota hai par sach hai</p>
               </motion.button>
             ) : (
               <motion.div
@@ -607,8 +606,7 @@ function HiddenMessage() {
                   transition={{ duration: 1.4, delay: 0.5 }}
                   className="font-display relative mt-6 text-2xl leading-snug text-blush italic sm:text-3xl"
                 >
-                  Main tumhe kabhi kabhi properly keh nahi paata, so here it is written down: I love
-                  you, Sudha.
+                  bol nahi pata isliye likh diya i love u sudha
                 </motion.p>
                 <motion.p
                   initial={{ opacity: 0 }}
@@ -616,7 +614,7 @@ function HiddenMessage() {
                   transition={{ duration: 1.4, delay: 1.6 }}
                   className="relative mt-6 leading-relaxed text-muted-foreground"
                 >
-                  Not just today, and not only because of a special day on the calendar.
+                  sirf aaj ke liye nahi aur na hi kisi date ki wajah se
                 </motion.p>
               </motion.div>
             )}
@@ -661,7 +659,7 @@ function Finale() {
       <div className={`${section} relative z-[2] text-center`}>
         <Reveal>
           <h2 className="text-3xl leading-[1.2] sm:text-5xl">
-            Wait… <span className="text-blush italic">there's one last thing.</span>
+            ruk ja <span className="text-blush italic">ek last cheez baaki hai</span>
           </h2>
         </Reveal>
 
@@ -694,7 +692,7 @@ function Finale() {
               className="mt-12"
             >
               <p className="font-script text-4xl text-blush sm:text-5xl">
-                This one is just for you, Sudha ❤️
+                ye sirf tere liye hai sudha ❤️
               </p>
             </motion.div>
           )}
@@ -710,7 +708,7 @@ function Finale() {
               className="mt-14"
             >
               <p className="text-lg leading-relaxed text-muted-foreground sm:text-xl">
-                Okay… now just listen to this ❤️
+                ab bas ye sun le ❤️
               </p>
 
               {!playing ? (
@@ -726,7 +724,7 @@ function Finale() {
                 >
                   <Play className="h-4 w-4 text-blush" fill="currentColor" />
                   <span className="text-sm tracking-[0.28em] uppercase">
-                    play our surprise ❤️
+                    play kar ❤️
                   </span>
                 </motion.button>
               ) : (
@@ -759,8 +757,8 @@ function Finale() {
                 className="mt-16 space-y-6"
               >
                 <p className="mx-auto max-w-xl text-lg leading-relaxed text-foreground/90 sm:text-xl">
-                  I don't know if a website can ever properly explain how much someone means to you,
-                  but I hope this little thing made you smile even for a moment.
+                  pata nahi ek website se sab samajh aata hai ya nahi par tu ek second ke liye bhi
+                  muskurayi toh mera kaam ho gaya
                 </p>
                 <p className="font-script text-4xl text-blush sm:text-5xl">
                   Happy National Couple Day, Sudha ❤️
@@ -775,7 +773,7 @@ function Finale() {
 
         <Reveal delay={0.4}>
           <p className="mt-24 text-[0.65rem] tracking-[0.35em] text-muted-foreground/80 uppercase">
-            made with love by shourya, just for you ❤️
+            made by shourya sirf tere liye ❤️
           </p>
         </Reveal>
       </div>
