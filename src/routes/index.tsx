@@ -173,14 +173,14 @@ function Hero() {
         <motion.div
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
-          transition={{ duration: 1.6, delay: 2.3 }}
+          transition={{ duration: 1.6, delay: 1.5 }}
           className="mt-9 h-px w-40 origin-left bg-[var(--gradient-glow)] opacity-70"
         />
 
         <motion.p
           initial={{ opacity: 0, y: 20, filter: "blur(12px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-          transition={{ duration: 1.8, delay: 2.9, ease: [0.22, 0.61, 0.36, 1] }}
+          transition={{ duration: 1.8, delay: 2.0, ease: [0.22, 0.61, 0.36, 1] }}
           className="mt-9 max-w-xl text-lg leading-relaxed text-muted-foreground sm:text-xl"
         >
           bas apke liye banaya hai ye
@@ -189,7 +189,7 @@ function Hero() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 4.2, duration: 1.4 }}
+          transition={{ delay: 3.3, duration: 1.4 }}
           className="mt-16 flex items-center gap-3 text-xs tracking-[0.3em] text-muted-foreground uppercase"
         >
           <motion.span
