@@ -169,14 +169,6 @@ function Hero() {
           Couple Day <span className="text-blush">❤️</span>
         </motion.h1>
 
-        <motion.h2
-          initial={{ opacity: 0, y: 22, filter: "blur(14px)" }}
-          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-          transition={{ duration: 1.8, delay: 1.5, ease: [0.22, 0.61, 0.36, 1] }}
-          className="font-script mt-6 text-4xl text-blush sm:text-5xl"
-        >
-          Shourya <span className="font-display not-italic">×</span> Sudha
-        </motion.h2>
 
         <motion.div
           initial={{ scaleX: 0 }}
