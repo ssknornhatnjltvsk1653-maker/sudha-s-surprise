@@ -586,7 +586,7 @@ function HiddenMessage() {
               >
                 <Gift className="mx-auto h-7 w-7 text-blush" />
                 <p className="mt-6 text-sm tracking-[0.3em] uppercase">press to reveal</p>
-                <p className="mt-3 text-sm text-muted-foreground">it's short, but I mean it</p>
+                <p className="mt-3 text-sm text-muted-foreground">chhota hai par sach hai</p>
               </motion.button>
             ) : (
               <motion.div
